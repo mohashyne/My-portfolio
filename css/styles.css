@@ -1,3 +1,29 @@
+:root {
+    --color-primary: #003869;
+    --color-secondary: #8897b7;
+    --color-accent: #04778a;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-body-darker: #060b1f;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+  /* Typography */
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
 body {
-    background: skyblue;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--color-body);
+  background-color: #aec3cf;
 }
