@@ -1,0 +1,9 @@
+header
+main
+     HOME
+     ABOUT
+
+     SKILLS AND EXPERIENCE
+     PORTFOLIO
+     CONTACT US
+footer     
